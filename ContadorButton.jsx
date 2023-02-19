@@ -13,7 +13,8 @@ const ContadorButton = () => {
             setContaClick(contador + 1)
           }
         }
-        title={contador.toString()}
+        title={"Hello World! " + contador.toString() + " vezes"}
+        color="#587792"
         />
       </View>
     );

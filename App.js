@@ -5,7 +5,6 @@ import ContadorButton from './ContadorButton';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello world!</Text>
       <ContadorButton />
     </View>
   );  
@@ -13,7 +12,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'steelblue',
+    backgroundColor: '#587792',
     alignItems: 'center',
     justifyContent: 'center',
   },
