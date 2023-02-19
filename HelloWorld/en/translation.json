@@ -1,0 +1,8 @@
+{
+    "_comment": "/en/translation.json",
+    "demoScope": {
+        "title": "Hello World! ",
+        "description": "Everyone understands me!",
+        "times": " times"
+    }
+}
