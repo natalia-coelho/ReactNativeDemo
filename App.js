@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {Text, View, StyleSheet} from 'react-native';
+import ContadorButton from './ContadorButton';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello world!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.text}>Hello world!</Text>
+      <ContadorButton />
     </View>
-  );
+  );  
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'steelblue',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    fontSize: 30
+  }
 });
